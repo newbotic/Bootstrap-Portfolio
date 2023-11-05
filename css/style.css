@@ -80,10 +80,22 @@ h1, h2, h3 , h4, h5, h6 {
   color: white;
   text-align: center;
 }
+
+
 /* card test */
-.card-w {
+.card-work {
   flex-direction: row;
+  align-items: center; 
 }
-.card-w img {
+.card img {
   width: 30%;
+  
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight:bold;
 }
