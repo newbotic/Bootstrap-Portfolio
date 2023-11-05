@@ -98,4 +98,17 @@ h1, h2, h3 , h4, h5, h6 {
 
 h2 {
   font-weight:bold;
+  color: aliceblue;
+}
+
+/* .color-p {
+  color: rgb(223, 223, 155);
+}
+.color-h1 {
+  color: rgb(223, 223, 155);
+  text-align: ;
+} */
+
+.container-fluid {
+  background-image: url(../images/pexels-pixabay-247791\ \(1\).jpg);
 }
