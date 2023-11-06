@@ -87,8 +87,12 @@ h1, h2, h3 , h4, h5, h6 {
   flex-direction: row;
   align-items: center; 
 }
-.card img {
-  width: 30%;
+.skills {
+  align-items: center;
+}
+.skills > img {
+  width: 50%;
+  
   
 }
 
@@ -111,4 +115,16 @@ h2 {
 
 .container-fluid {
   background-image: url(../images/pexels-pixabay-247791\ \(1\).jpg);
+}
+.about-me {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 50vh;
+
+}
+
+.img-cover{
+  object-fit: cover;
+  object-position: center;
+  
 }
