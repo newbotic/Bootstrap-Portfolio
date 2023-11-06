@@ -1,22 +1,10 @@
 footer {
-    /* position: absolute; */
-    /* width: 80%; */
-    /* height: 150px; */
-    /* line-height: 60px; */
-    /* background-color: #f5f5f5; */
-    /* margin-top: 50px; */
-    /* ?? */
-    /* position: fixed; */
-    background: url("../images/transparency.png");
-    background-color: transparent !important;
-    background-size: cover;
-    z-index: 10;
+     position: relative; 
+     background-image: url(../images/transparency.png);
+    margin-bottom: 15px;
     
   }
 
-  .container> span > p {
-    color: white !important;
-  }
   .cardContainer {
     margin-bottom: 15px;
   }
@@ -83,13 +71,17 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 
-/* card  */
+/* work section  */
+
 .card-work {
+  display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 10rem;
   margin-right: 10rem;
   height: 30vh;
+  overflow-y: auto;
+  margin: 0 auto;
   
 }
 .skills {
@@ -121,16 +113,17 @@ body {
   margin-left: 5rem;
   width: 700px;
   height: 300px;
+  image-rendering: auto;
 } 
 
+/* about me section */
 
-
-.about-me {
+/* .about-me {
   margin-left: 10rem;
   margin-right: 10rem;
   height: 35vh;
 
-}
+} */
 
 .img-cover{
   object-fit: cover;
@@ -142,7 +135,3 @@ body {
   flex-direction: column;
 align-items: center;
 }
-/* .cardContainer {
-  
-  margin-left: 1rem;
-} */
