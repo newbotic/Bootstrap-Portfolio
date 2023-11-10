@@ -22,6 +22,10 @@ This is a simple Bootstrap-based portfolio website.
 
 The Bootstrap Portfolio is a basic portfolio website built using Bootstrap, HTML and css. It includes sections for a navigation bar, a welcome message, a skills section, a work section, an about me section, and a footer with social media icons and copyright information.
 
+## Link to the deployed application
+
+https://newbotic.github.io/Bootstrap-Portfolio/
+
 ## Getting Started
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
